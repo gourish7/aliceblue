@@ -1,0 +1,21 @@
+{
+    "name": "gourish7/aliceblue",
+    "description": "A php SDK library for aliceblue apis",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gourish7\\Aliceblue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gourishankar Pujar",
+            "email": "gourish.7@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
